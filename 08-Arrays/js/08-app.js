@@ -20,6 +20,6 @@ console.log(hey)
 // Destructuring con Arreglos
 const numeros = [10, 20 ,30, 50 ]
 
-const[primero, b, c] = numeros;
+const[primero, b , ...resto] = numeros;
 
-console.log(c);
+console.log(resto);
