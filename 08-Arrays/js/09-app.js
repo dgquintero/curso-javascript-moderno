@@ -19,3 +19,4 @@ const carrito = [
 carrito.forEach( function(producto) {
   console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);
 })
+
